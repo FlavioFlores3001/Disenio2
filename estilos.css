@@ -26,6 +26,18 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-size: 190%;
+    animation: movimiento 20s infinite;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: top left;
+    }to{
+        background-position: top right;
+    }
+}
     
 }
 
